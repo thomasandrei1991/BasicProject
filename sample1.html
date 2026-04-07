@@ -4,21 +4,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="sample1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Batman Profile</title>
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="profilepic">
-            <img src="images/batman.jpg" alt="batman">
-        </div>
-        <div class="profilename">
-            <h1>Batman The Great</h1>
+        <div class="container" id="home">
+            <div class="profile-container">
+                <div class="profilepic">
+                    <img src="images/batman.jpg" alt="batman">
+                </div>
+                <div class="profilename">
+                    <h1>Batman The Great</h1>
+                </div>
+            </div>
+            <section class="about-section" id="about">
+                <h2>About Batman</h2>
+                <p>
+                    Batman, also known as Bruce Wayne, is a fictional superhero appearing in American comic books published by DC Comics. He was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27 in 1939. Batman is a wealthy businessman who fights crime in Gotham City using his intellect, detective skills, and physical prowess. He is known for his iconic costume, which includes a cape and cowl, and his use of gadgets and technology to combat criminals.
+                </p>
+            </section>
+            <section id="skills">
+                <div class="skills-section">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Martial Arts</li>
+                        <li>Detective Skills</li>
+                        <li>Stealth</li>
+                        <li>Intellect</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contact-section" id="contact">
+                <h2>Contact Information</h2>
+                <p>Email:BatMan@gmail.com</p>
+            </section>
         </div>
     </body>
 </html>
